@@ -6,8 +6,8 @@ const Article = ({ imgSrc, name, description, price }) => (
     <img alt="{name}" src={imgSrc} />
     <h4>{name}</h4>
     <p>{description}</p>
-    <p>{price}</p>
-    <Button color="primary">Acheter</Button>
+    <p>{price} €</p>
+    <Button color="primary">Supprimer</Button>
   </ListGroupItem>
 );
 

@@ -1,15 +1,14 @@
 import React, { Component } from "react";
 import "./App.css";
 import NavbarBar from "./components/AppBar";
-import ListOfArticle from "./components/ListArticle";
+import Panier from "./components/Panier";
 
 class AppBar extends Component {
   render() {
     return (
       <div className="App">
         <NavbarBar />
-
-        <ListOfArticle />
+        <Panier />
       </div>
     );
   }
